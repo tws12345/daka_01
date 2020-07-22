@@ -88,8 +88,8 @@
     
     #用位异或算法，相同的数字异或之后为0，还满足交换律，且0^num=num,所以把所有元素异或之后就剩余那个只出现一次的数字。
     
-nums=[4,1,2,1,2]
-result = 0
-for i in range(len(nums)):
-    result ^= nums[i]
-print(result) 
+    nums=[4,1,2,1,2]
+    result = 0
+    for i in range(len(nums)):
+        result ^= nums[i]
+    print(result) 
